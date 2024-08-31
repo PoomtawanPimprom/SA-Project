@@ -1,0 +1,120 @@
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+
+.background {
+  min-height: 100vh;
+  height: 100%;
+  background-attachment: fixed;
+  background: linear-gradient(170deg, #D4ADFC -0.89%, #5C469C 87.43%, #181818 157.59%);
+  position:relative;
+}
+.text-Upload-Series {
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 100px;
+  
+}
+.text-Square{
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 100px;
+}
+.text-Vertical{
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 300px;
+  padding-left: 100px;
+}
+
+.text-Summary{
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+.bg_btn_square{
+  background-color: aliceblue;
+  height: 230px;
+  width: 230px;
+  border-radius: 8px;
+  position: absolute;
+  margin-left: 100px;
+}
+.bg_btn_vertical{
+  background-color: aliceblue;
+  margin-left: 100px;
+  height:330px;
+  width: 230px;
+  border-radius: 8px;
+  position: absolute;
+  
+}
+.text-btn-upload-square{
+  font-family: Inter;
+  color: gray;
+}
+
+.bg-from{
+  margin-left:500px;
+  margin-top:-380px;
+  background:rgba(24, 24, 24, 0.90);;
+  width: 1000px;
+  height: fit-content;
+  position: absolute;
+  border-radius: 10px;
+  min-height: 700px;
+ 
+}
+.ant-select-selection-item {
+  color: black;
+}
+.ant-upload-list {
+  width: 95%;
+}
+
+/* 
+.ant-layout{
+  min-height: 100vh;
+  height: 100%;
+}
+
+.btn-create-series{
+  left: -150px;
+} */

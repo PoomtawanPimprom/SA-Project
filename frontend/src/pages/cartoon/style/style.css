@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;&display=swap");
+
+.dashboardbackgroud {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  user-select: none;
+  background-attachment: fixed;
+  background: linear-gradient(
+    170deg,
+    #d4adfc -0.89%,
+    #5c469c 87.43%,
+    #181818 157.59%
+  );
+}
+
+.top {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.below {
+  height: 100%;
+  min-height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.eplist {
+  display: flex;
+  position: relative;
+  min-width: 620px;
+  width: 40%;
+}
+
+.blankspaceep {
+  position: relative;
+  min-width: 45px;
+  height: 100%;
+}
+
+.listzone {
+  position: relative;
+  width: 100%;
+}
+
+.list {
+  padding-bottom: 20px;
+}
+
+.listbox {
+  display: flex;
+  background-color: #181818;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.listbox:hover {
+  background-color: #2b2b2b;
+}
+
+.infobox {
+  top: 20px;
+  position: sticky;
+  min-width: 200px;
+  width: 15%;
+  height: 460px;
+  background-color: #181818;
+  border-radius: 15px;
+}
+
+.info {
+  position: relative;
+  left: 20px;
+  width: 90%;
+}
+
+.infotop {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  left: 20px;
+}
+
+.toonname {
+  position: relative;
+  top: 10px;
+  transition: 0.3s;
+  color: #ebebeb;
+}
+
+.toonname:hover {
+  transform: scale(1.03);
+  color: #b276ff;
+}
+.detailinfo {
+  top: -20px;
+  width: 95%;
+  position: relative;
+  height: 290px;
+  color: aliceblue;
+  overflow-y: scroll;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+.detailinfo::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+  
+  
+
+
+/* like */
+
+.likeicontop {
+  top: 10px;
+  position: relative;
+  height: 40px;
+  width: 100px;
+  padding: 0.5rem;
+  background-color: #ff5076;
+  border-radius: 100px;
+  display: flex;
+  transition: 0.3s;
+}
+
+.sumlike {
+  color: #ebebeb;
+}
+
+.blankspace {
+  width: 70%;
+}
+
+.showlike {
+  position: relative;
+  display: flex;
+}
+
+.sumlike {
+  position: relative;
+  top: -17px;
+  font-size: large;
+  padding-right: 8px;
+  padding-left: 5px;
+}
+
+.likeicontop:hover {
+  background-color: #ff93b7;
+  scale: 1.05;
+}
+
+.likeicontop:active {
+  background-color: #000000;
+}
+
+.imgForEP {
+  position: relative;
+  border-radius: 10px;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+}
+
+.imgEP {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.toonnameInCatoon {
+  position: relative;
+  color: aliceblue;
+  font-size: x-large;
+
+  top: 5px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.DateInCartoon {
+  position: relative;
+  color: rgb(161, 162, 170);
+  font-size: smaller;
+  top: 10px;
+  left: 5px;
+}
+
+.toonnameAndDate {
+  display: inline;
+  align-items: center;
+}
+
+.EPinfoCartoon {
+  display: flex;
+  position: relative;
+  width: 100%;
+  left: 30px;
+}
+
+.boxprice {
+  display: flex;
+  background-color: aliceblue;
+  height: 40px;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.EPPrice {
+  font-size: large;
+}
+
+.priceInCartoon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.EPNumber {
+  display: flex;
+  align-items: center;
+}
+
+.NumberEPInCartoon {
+  color: #7560b4;
+  font: 2.5em sans-serif;
+}
+
+.blankSpaceInEPCartoon1 {
+  min-width: 60px;
+}
+
+.blankSpaceInEPCartoon2 {
+  min-width: 70px;
+}
+
+.boxforprice {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+
+.blankpriceForBackIn {
+  width: 60px;
+}
+.imageshowInCartoon img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 420px;
+  max-height: 480px;
+  border-radius: 20px;
+}
+
+.imageshowInCartoon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+
+  transition: 0.3s;
+}
+.imageshowimage {
+  width: 900px;
+  object-fit: cover;
+}
+
+.followNlikeButton{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  left: -10px;
+}
+

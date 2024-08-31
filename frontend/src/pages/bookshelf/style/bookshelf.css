@@ -1,0 +1,79 @@
+.MainBackgroundColor {
+  background: linear-gradient(170deg,#d4adfc -0.89%,#5c469c 87.43%,#181818 157.59%);
+  background-attachment: fixed;
+}
+
+.menubar-bookshelf{
+  z-index: 999;
+}
+.Content-Content.Part {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  padding: 10px 20px 10px 10px;
+  background-color: 181818;
+  opacity: 0.1;
+}
+
+.header {
+  width: 100%;
+  height: 8vh;
+  color: white;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.info-box {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 204px;
+  color: #fff;
+  background-color: #040404;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0px 0px 0px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+
+.img-infobox {
+  position: relative;
+  z-index: 999;
+  height: 190px;
+  width: 190px;
+}
+
+.text-infobox {
+  position: relative;
+  width: 60%;
+  height: 184px;
+  left: 5vw;
+  font-size: 12px;
+}
+
+.EpisodeNumber-infobox h1 {
+  position: relative;
+  text-align: center;
+  padding-top: vh;
+  margin: 0px;
+
+  width: 40vw;
+  height: 10vh;
+  font-size: 56px;
+}
+
+.EpisodeNumber-infobox h1 {
+  padding-right: 3vw;
+  text-align: end;
+  
+  margin: 0px;
+  top: 4vh;
+
+  font-size: 84px;
+}

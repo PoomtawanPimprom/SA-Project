@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;&display=swap");
+
+
+
+    
+
+.movingpage{
+    position: fixed;
+    align-items: center;
+    top: 94%;
+    left: 0;
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub1movingpage {
+  
+
+    font: 1em sans-serif;
+    position: relative;
+    display: flex;
+
+}
+
+.prevbt{
+    position: relative;
+    top: 0px;
+    background-color: #181818;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    transition: 0.2s;
+}
+
+.prevbt:hover{
+    background-color: #6e57b3;
+    scale: 1.07;
+}
+
+
+.prev{
+    position: relative;
+    color: #e9e9e9;
+}
+
+.nextbt{
+    position: relative;
+    top: 0px;
+    background-color: #181818;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    transition: 0.2s;
+}
+
+.nextbt:hover{
+    background-color: #6e57b3;
+    scale: 1.07;
+}
+
+.next{
+    position: relative;
+    color: #e9e9e9;
+}
+
+
+
+.pages{
+    height: 40px;
+    width: auto;
+    padding-right: 28px;
+    background-color: #181818;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.jumpbox{
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 19px;
+    width: 90px;
+    height: 30px;
+    background-color: #6e57b3;
+    border-radius: 30px;
+    transition: 0.2s;
+    
+}
+
+.jumpbox:hover{
+    background-color: #D4ADFC;
+    scale: 1.03;
+}
+
+
+.jumpto{
+    color: rgb(255, 255, 255);
+}
+
+.nump{
+    
+    color: #e6e6e6;
+}
+
+.n {
+    padding-left: 20px;
+    
+}
+
+.padinpage{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.toon img{
+    position: relative;
+    width: 780px;
+    object-fit: cover;
+    
+    
+   
+}
+
+.bd1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+.backbt{
+    position: fixed;
+    top: 0px;
+}
+
+.backbox{
+    width: 80px;
+    height: 40px;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 40px;
+    transition: 0.2s;
+
+}
+
+.backbox:hover{
+    background-color: #836ace;
+    scale: 1.07;
+}
+
+.back{
+    color: #e9e9e9;
+    font: 1.5em sans-serif;
+}

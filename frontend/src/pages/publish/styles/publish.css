@@ -1,0 +1,95 @@
+.Publish{
+  position: fixed;
+  top: 84px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  font-family: 'JejuGothic';
+}
+.Publish-flex-on-top{
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  user-select: none;
+
+}
+.Publish-text-on-top{
+  font-size: 60px;
+
+}
+.Publish-flex-content{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-content: center;
+  user-select: none;
+ 
+}
+
+.Publish-series{
+  margin-top: 5vh;
+  margin-left: 5vh;
+  margin-right: 10vh;
+  background-color: #181818e6;
+  border-radius: 21px;
+  height: 20vh;
+  left: 0;
+  top: 0;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+}
+
+.Publish-set1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 90%;
+}
+
+.Publish-series-thumbnail-png{
+  position: relative;
+  padding-top: 10px;
+  padding-left: 10px;
+  object-fit: cover;
+  width: 250px;
+  height: 90%;
+  border-radius: 20px;
+  
+}
+.Publish-text{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+  width: 50%;
+}
+.Publish-text-name{
+  margin-top: 20px;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  
+}
+.Publish-text-date{
+  color: #ffffff;
+  letter-spacing: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.Publish-button{
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-right: 20px;
+}

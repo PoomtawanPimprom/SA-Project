@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;&display=swap");
+
+  .Followed {
+    top: 10px;
+    position: relative;
+    height: 40px;
+    width: 100px;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-stretch: expanded;
+    display: flex;
+    transition: 0.2s;
+
+    user-select: none; 
+    -moz-user-select: none; 
+    -webkit-text-select: none; 
+    -webkit-user-select: none; 
+  }
+
+  .Followed:hover{
+    scale: 1.1;
+  }
+
+  .Follow {
+    top: 10px;
+    position: relative;
+    height: 40px;
+    width: 100px;
+    padding: 0.5rem;
+    background-color: #28d895;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    font-family: Arial;
+    font-stretch: expanded;
+    display: flex;
+    transition: 0.3s;
+    user-select: none; 
+         -moz-user-select: none; 
+         -webkit-text-select: none; 
+         -webkit-user-select: none; 
+  }
+
+  .Follow:hover{
+    scale: 1.1;
+    background-color: #6afdc5;
+    color: #ffffff;
+  }

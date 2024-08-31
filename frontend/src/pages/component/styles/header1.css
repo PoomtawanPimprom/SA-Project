@@ -1,0 +1,121 @@
+
+@font-face {
+  font-family: 'JejuGothic';
+  src:url('../fonts/webfonts_JejuGothic/JejuGothic.ttf.woff') format('woff'),
+      url('../fonts/webfonts_JejuGothic/JejuGothic.ttf.svg#JejuGothic') format('svg'),
+      url('../fonts/webfonts_JejuGothic/JejuGothic.ttf.eot'),
+      url('../fonts/webfonts_JejuGothic/JejuGothic.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+.link{
+  display: flex;
+  position: initial;
+  
+}
+.header-left-side{
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: 'JejuGothic';
+  align-items: center;
+}
+.satoon{
+  margin-right:10px;
+  display: flex;
+}
+.satoon-img{
+  height: 70px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text-on-top Link{
+  display: flex;
+  width: 2px;
+  height: 2vh;
+  z-index: 999;
+ 
+  color: #f4f4f4;
+  font-size: 20px;
+  margin-right:40px ;
+  user-select: none;
+}
+.text-on-top :hover{
+  font-size: 20px;
+  margin-right:40px ;
+  cursor: pointer;
+  user-select: none;
+  background-color: #D4ADFC;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+.popular{
+  margin-right:20px ;
+  cursor: pointer;
+  user-select: none;
+}
+
+.header-right-side{
+  display: flex;
+  align-items: center;
+  padding-right: 2px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button-on-top{
+  margin: 10px;
+  font-family: 'JejuGothic';
+  display: flex;
+  flex-direction: row;
+}
+.search-input-on-top{
+ margin: 10px;
+ display: inline-block;
+ position: relative;
+
+}
+
+
+/*Search bar*/
+form-header{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-5%);
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 5px;
+  position:relative;
+  
+}
+
+.input-search-bar{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.search-input{
+  display: flex;
+  align-items: center;
+}
+.search-icon{
+  margin-bottom: 50px;
+  margin-left: -3.4px;
+  margin-top: -3px;
+  height: 30px;
+}

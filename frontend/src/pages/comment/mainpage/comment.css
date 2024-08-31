@@ -1,0 +1,46 @@
+.bg-color{
+    background: linear-gradient(166deg, #D4ADFC 0%, #5C469C 82.55%, #181818 143.46%);
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}
+
+.card-color{
+    background-color: #f2e9f5;
+    width: 100%;
+    
+}
+
+
+
+.comment-border{
+    background-color: aqua;
+    height: 10px;
+    width: 10px;
+}
+
+.submit-style{
+    left: -30px;
+    background: #5C469C;
+    height: 50px;
+    width: 150px;
+    justify-content: "center";
+    margin-top: "10px";
+}
+
+.content-style{
+    justify-content: "center";
+    padding: 100px 300px;
+}
+
+.textarea-style{
+    
+    left: -30px;
+    height: 100;
+    width: 100%;
+    resize: none;
+}
+
+.ant-message {
+    color: black; 
+  }

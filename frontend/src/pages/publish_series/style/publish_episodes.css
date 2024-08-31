@@ -1,0 +1,29 @@
+.bg_btn_thumbnail{
+  background-color: aliceblue;
+  height: 180px;
+  width: 180px;
+  border-radius: 8px;
+  position: absolute;
+  margin-left: 100px;
+}
+
+.bg-from-episode{
+  margin-left:500px;
+  margin-top:-380px;
+  background:rgba(24, 24, 24, 0.90);;
+  width: 1000px;
+  height: 75vh;
+  position: absolute;
+  border-radius: 10px;
+ 
+}
+.ant-input-number-input{
+  color: black;
+}
+
+.ant-input-number-input-wrap{
+  color: black;
+  height: 50px;
+  width: 100px;
+}
+

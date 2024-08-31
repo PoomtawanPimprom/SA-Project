@@ -1,0 +1,593 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;&display=swap");
+
+
+.dashboardbackgroud{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+
+
+    
+    background-attachment: fixed;
+    background: linear-gradient(170deg, #D4ADFC -0.89%, #5C469C 87.43%, #181818 157.59%);
+}
+
+.alltop {
+  
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    
+
+}
+
+.dashboardmain {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-width: 10px;
+    max-width: 60%;
+    display: flex;
+    padding: 2rem;
+    
+}
+
+
+.imageshow img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+    
+    max-height: 480px;
+    border-radius: 20px;
+}
+
+.imageshow {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    
+    transition: 0.3s;
+
+}
+
+.imageshow:hover {
+    transform: scale(1.02);
+
+}
+
+
+.infotopbox {
+    height: 100%;
+    background-color: #181818;
+    color: #fff;
+    padding: 1.5rem;
+    min-width: 350px;
+    border-radius: 20px;
+    
+
+}
+
+.info {
+    position: relative;
+    top: -10px;
+    left: 5px;
+    width: 100%;
+
+    
+}
+
+.infotop {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    left: 20px;
+}
+
+.by {
+    color: #D4ADFC;
+    stroke: #fff;
+}
+
+.toonname {
+    user-select: none; 
+    -moz-user-select: none; 
+    -webkit-text-select: none; 
+    -webkit-user-select: none;
+    transition: 0.3s;
+}
+
+.toonname:hover {
+    transform: scale(1.03);
+    color: #B276FF;
+
+}
+.detailinfodash {
+    position: relative;
+    top: -20px;
+    width: 100%;
+    align-items: top;
+ 
+}
+.infodashdt{
+    position: relative;
+    top: 0px;
+    height: 300px;
+    overflow-y: scroll;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+.infodashdt::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+
+
+
+
+/* like */
+
+.like {
+    
+    position: relative;
+    width: 30px;
+    height: 30px;
+    bottom: 10px;
+    top: -3px;
+    right: 0px;
+    
+    
+}
+
+.likeicontop {
+    top: 10px;
+    position: relative;
+    height: 40px;
+    width: 100px;
+    padding: 0.5rem;
+    background-color: #ff5076;
+    border-radius: 100px;
+    display: flex;
+    transition: 0.3s;
+    
+}
+
+.sumlike{
+    color: #ebebeb;
+}
+
+.blankspace {
+    width: 70%;
+
+}
+
+.showlike {
+    position: relative;
+    display: flex;
+
+}
+
+.sumlike {
+    position: relative;
+    top: -17px;
+    font-size: large;
+    padding-right: 8px;
+    padding-left: 5px;
+    
+}
+
+.likeicontop:hover {
+    background-color: #ff93b7;
+    scale: 1.05;
+}
+
+.likeicontop:active{
+    background-color: #000000;
+}
+
+
+
+
+/* continue read */
+
+.continueread{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 100px; 
+}
+
+.continuereadhead {
+    position: relative;
+    color: #fff;
+    left: 10px;
+    top: -15px;
+    
+}
+
+
+.coverpage1 img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    
+}
+
+.onelist {
+    position: relative;
+    width: 360px;
+    display: flex;
+    padding: 1rem;
+    background-color: rgba(24, 24, 24, 1);
+    border-radius: 20px;
+    transition: 0.3s;
+    
+
+}
+
+.onelist:hover {
+  background-color: #54347e;
+  
+}
+
+.infotoonlist1 {
+    position: relative;
+
+    top: 5px;
+    left: 20px;
+}
+
+.toonnamelist1 {
+
+    color: #fff;
+}
+
+.EP1 {
+    color: #B276FF;
+}
+
+.boxcontinueread {
+    width: 94%;
+    height: 250px;
+    padding: 1rem;
+    background-color: rgba(24, 24, 24, 0.6);
+    border-radius: 20px;
+    
+
+}
+
+.listcartooncontinueread {
+    
+    display: flex;
+    width: 1820px;
+    
+    
+
+    
+    
+}
+
+.listboxcn {
+    position: relative;
+    left: 5px;
+    top: 3px;
+    background-color: none;
+    padding-right: 13px;
+    transition: 0.2s;
+    
+}
+
+.listboxcn:hover {
+    transform: scale(1.03);
+}
+
+.remforslidebar {
+    width: 100%;
+    height: 178px;
+    overflow-x: auto;
+    position: relative;
+    top: -15px;
+    
+}
+
+
+
+
+
+
+
+
+/* rating */
+
+.ratingbox {
+    padding-right: 8px;
+    padding-left: 8px;
+    width: 100%;
+
+}
+
+.ratingtoptoon1 {
+    position: relative;
+    min-width: 360px;
+    display: flex;
+    padding: 1rem;
+    background-color: #fcaf3b;
+    border-radius: 20px;
+    transition: 0.3s;
+    height: 150px;
+    filter: drop-shadow(0px 0px 5px #7b6da1);
+    
+
+}
+
+.ratingtoptoon1:hover {
+    background-color: #fff0b8;
+    filter: drop-shadow(0px 0px 5px #ffd900);
+}
+
+.ratingtoptoon2 {
+    position: relative;
+    min-width: 360px;
+    display: flex;
+    padding: 1rem;
+    background-color: #99b7cf;
+    border-radius: 20px;
+    transition: 0.3s;
+    height: 150px;
+    filter: drop-shadow(0px 0px 5px #5b4d80);
+    
+
+}
+
+.ratingtoptoon2:hover {
+    background-color: #eaebec;
+    filter: drop-shadow(0px 0px 5px rgb(75, 213, 255));
+}
+
+.ratingtoptoon3 {
+    position: relative;
+    min-width: 360px;
+    display: flex;
+    padding: 1rem;
+    background-color: #d65e26;
+    border-radius: 20px;
+    transition: 0.3s;
+    height: 150px;
+    filter: drop-shadow(0px 0px 5px #5b4d80);
+    
+
+}
+
+.ratingtoptoon3:hover {
+    background-color: #ffceba;
+    filter: drop-shadow(0px 0px 5px #ff0d0d);
+}
+
+
+.coverpagetoprating img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.infotoontop {
+    position: relative;
+
+    top: -35px;
+    left: 20px;
+}
+
+.toptoonname {
+    position: relative;
+    top: -12px;
+    color: #000000;
+    font-size: x-large;
+    
+}
+
+.rank1 {
+    color: rgb(255, 255, 255);
+    font-size: xxx-large;
+    filter: drop-shadow(3px 3px 2px #e28c3b);
+}
+
+.rank2 {
+    color: rgb(255, 255, 255);
+    font-size: xxx-large;
+    filter: drop-shadow(3px 3px 2px #8896b3);
+}
+
+.rank3 {
+    color: rgb(255, 255, 255);
+    font-size: xxx-large;
+    filter: drop-shadow(3px 3px 2px #bb3523);
+}
+
+
+.ratingbox {
+    width: 40%;
+    transition: 0.3s;
+    
+
+}
+
+.ratingbox:hover {
+    transform: scale(1.03);
+}
+
+
+
+
+
+/* box rating */
+
+
+.cartoon {
+    display: flex;
+    min-width: 1000px;
+    width: 100%;
+    padding: 0.7rem;
+
+}
+
+
+.ratinghead {
+    color: #fff;
+    left: 10px;
+    top: -2px;
+}
+
+.boxratingshowmain {
+    width: 94%;
+    padding: 1rem;
+    border-radius: 20px;
+
+}
+
+
+.ratingshowmain {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.headrating {
+    font-size: xxx-large;
+    color: #fdd1ff;
+    filter: drop-shadow(0px 0px 3px #ff7cff);
+
+
+}
+
+.headrating2 {
+    font-size: xx-large;
+}
+
+.row {
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+/* cartoon */
+
+.cartoonlistshowdashboad {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 10%;
+    
+}
+
+.cartoonlistshowdashboadhead {
+    position: relative;
+    color: #fff;
+    left: 10px;
+    top: -2px;
+}
+
+
+.listshowdashboad {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    background-color: rgba(24, 24, 24, 1);
+    border-radius: 20px;
+    transition: 0.3s;
+    
+    
+    
+
+}
+
+.listshowdashboad:hover {
+    background-color: #54347e;
+}
+
+.infotoonlist1 {
+    position: relative;
+    cursor: pointer;
+    top: 5px;
+    left: 20px;
+}
+
+.toonnamelist1 {
+    color: #fff;
+}
+
+.EP1 {
+    color: #B276FF;
+}
+
+.boxcartoonlistshowdashboad {
+    position: relative;
+    
+    width: 96%;
+    min-height: 340px;
+    padding: 1rem;
+    background-color: rgba(24, 24, 24, 0.6);
+    border-radius: 20px;
+
+}
+
+.listcartoonlistshowdashboad {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* display: grid;
+    grid-template-columns: repeat(4, auto); */
+    padding: 0.7rem;
+    top: 0px;
+    justify-content: center;
+    
+
+}
+
+.listboxcartoonlistshowdashboad {
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 1px;
+    min-width: 420px;
+    
+    
+
+    
+    
+    
+}
+
+.listboxcartoonlistshowdashboad:hover {
+    transform: scale(1.03);
+    
+
+}
+
+.remforslidebarcartoonlistshowdashboad {
+    padding-top: 10px;
+
+    width: 100%;
+    
+}

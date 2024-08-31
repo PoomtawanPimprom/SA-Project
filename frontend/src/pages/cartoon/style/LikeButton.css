@@ -1,0 +1,46 @@
+
+  .liked {
+    top: 10px;
+    position: relative;
+    height: 40px;
+    width: 100px;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    
+    display: flex;
+    transition: 0.2s;
+
+    user-select: none; 
+    -moz-user-select: none; 
+    -webkit-text-select: none; 
+    -webkit-user-select: none; 
+  }
+
+  .liked:hover{
+    scale: 1.1;
+  }
+
+  .LIKE {
+    top: 10px;
+    position: relative;
+    height: 40px;
+    width: 100px;
+    padding: 0.5rem;
+    background-color: #ff6385;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    display: flex;
+    transition: 0.3s;
+    user-select: none; 
+         -moz-user-select: none; 
+         -webkit-text-select: none; 
+         -webkit-user-select: none; 
+  }
+
+  .LIKE:hover{
+    scale: 1.1;
+    background-color: #ff9fc6;
+    color: #ffffff;
+  }
